@@ -1,0 +1,80 @@
+#myDIV {
+  background-color: rgb(65, 65, 65, 0.65);
+  padding: 20px;
+}
+#myDIV h2 {
+  color: rgb(218, 218, 218);
+}
+#inputText {
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
+#add {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  color: rgb(65, 65, 65, 0.65);
+}
+#add:hover {
+  background-color: navajowhite;
+  cursor: pointer;
+}
+#list li {
+  list-style-type: none;
+  height: auto;
+  padding: 5px;
+  max-width: auto;
+  margin: none;
+}
+#list li:nth-child(odd) {
+  color: rgb(65, 65, 65, 0.65);
+  background-color: rgb(233, 233, 233);
+}
+
+#list li:nth-child(even) {
+  color: rgb(65, 65, 65, 0.65);
+  background-color: rgb(248, 247, 247);
+}
+#list li {
+  cursor: pointer;
+}
+#list {
+  text-decoration: none;
+  padding: 0px;
+}
+
+.close {
+  float: right;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  color: rgb(65, 65, 65, 0.65);
+  padding: 5px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+.close:hover {
+  background-color: red;
+}
+ul li.checked {
+  text-decoration: line-through;
+  position: relative;
+}
+
+ul li.checked::after {
+  content: "";
+  position: absolute;
+  border-color: rgb(65, 65, 65, 0.65);
+  border-style: solid;
+  right: 20px;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+  margin-left: 5px;
+}
